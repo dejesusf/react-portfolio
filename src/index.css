@@ -1,3 +1,10 @@
+:root {
+  --b1: #2f3e46;
+  --b2: #354f52;
+  --b3: #84a98c;
+  --g1: #cad2c5;
+}
+
 * {
   margin:0%;
   box-sizing: border-box;
@@ -7,4 +14,119 @@
 a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  color: var(--b1);
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+main a {
+  color: var(--b1);
+  font-weight: bold;
+}
+
+main a:hover {
+  color: black;
+}
+
+main p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+header {
+  background: var(--b3);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+header a {
+  padding: 1% 2%;
+}
+
+#image img {
+  width: 98%;
+  border-radius: 10px;
+}
+
+.g1-block{
+  background: var(--g1);
+}
+
+footer {
+  background: var(--b3);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+/* flexbox classes */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  /* background: var(--g1); */
+  margin: 20px 20px 0px 20px;
+  width: 80%;
+  text-align: center;
+  padding: 1%;
+}
+
+.middle {
+  margin: 0px 10px 10px 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+.left {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+.right {
+ width: 49%;
+ display: inline-block;
+ vertical-align: top;
+ padding-left: 5px;
+}
+
+.small-left,
+.small-right {
+  width: 29%;
+  display: inline-block;
+  /* vertical-align: top; */
+  padding-right: 5px;
+}
+
+.large-left,
+.large-right {
+ width: 69%;
+ display: inline-block;
+ vertical-align: top;
+ padding-left: 5px;
 }
