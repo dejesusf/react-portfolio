@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
+    <main>
       <h1>ABOUT ME</h1>
       <p>My name is Feliclare De Jesus and I am a Student Full Stack Web Developer enrolled in the University of Washington Coding Bootcamp program. Also, you may call me Feli (it's like Kelly, but with an F).</p>
 
@@ -13,6 +13,6 @@ export default function About() {
       <p>I've been employed with the University of Washington's Department of Laboratory Medicine & Pathology since 2020. My work as a Clinical Laboratory Technician has been fulfilling but I am looking for change. My strengths lie in frontend web design, however I am really excited to learn more of the backend portion of web development!</p>
 
       <p>Please checkout my <a href="./pages/portfolio.html">portfolio</a> and <a href="./pages/current-projects.html">ongoing projects</a> to see what I'm currently working on. You can also follow me on <a href="https://github.com/dejesusf" target="_blank" rel="noopener noreferrer">Github</a>.</p>
-    </div>
+    </main>
   );
 }

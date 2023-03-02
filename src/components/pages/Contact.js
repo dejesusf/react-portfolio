@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
+    <main>
       <h1>CONTACT ME</h1>
       <p>
 
       </p>
-    </div>
+    </main>
   );
 }
