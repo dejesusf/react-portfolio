@@ -1,6 +1,6 @@
 :root {
   --b1: #2f3e46;
-  --b2: #354f52;
+  --b2: #52796f;
   --b3: #84a98c;
   --g1: #cad2c5;
 }
@@ -30,7 +30,7 @@ main a {
 }
 
 main a:hover {
-  color: black;
+  color: var(--b2);
 }
 
 main p {
@@ -40,14 +40,18 @@ main p {
 
 header {
   background: var(--b3);
-  height: auto;
+  height: 90px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-size: 18px;
+  padding: 1% 2%;
 }
 
-header a {
-  padding: 1% 2%;
+nav a {
+  width: auto;
+  padding: 0px 15px;
 }
 
 #image img {
