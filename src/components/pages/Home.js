@@ -6,7 +6,7 @@ export default function Home() {
       <div className="row">
         <div className="column">
           <div className="top">
-            <h1>HOME</h1>
+            {/* <h1>HOME</h1> */}
           </div>
         </div>
       </div>

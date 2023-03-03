@@ -23,7 +23,7 @@ function Header({ currentPage, handlePageChange }) {
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
           Portfolio
         </a>
-        <a href="#Resume"
+        <a href="#resume"
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
           Resume

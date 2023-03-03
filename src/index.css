@@ -1,8 +1,8 @@
 :root {
-  --b1: #2f3e46;
-  --b2: #52796f;
-  --b3: #84a98c;
-  --g1: #cad2c5;
+  --b1: #012a4a;
+  --b2: #2c7da0;
+  --b3: #89c2d9;
+  --g1: #e7ecef;
 }
 
 * {
@@ -33,7 +33,8 @@ main a:hover {
   color: var(--b2);
 }
 
-main p {
+main p,
+main ul {
   margin-bottom: 10px;
   text-align: justify;
 }
@@ -75,7 +76,27 @@ footer {
   bottom: 0;
 }
 
-/* flexbox classes */
+/* ========== resume ========== */
+section {
+  padding-left: 10px;
+}
+
+.tab {
+  padding-left: 15px;
+}
+
+.tab-tab {
+  padding-left: 25px;
+}
+
+.no-line-break {
+  margin-bottom: 0px;
+}
+
+/* ========== contact form ========== */
+
+
+/* ========== flexbox classes ========== */
 .row {
   display: flex;
   flex-direction: row;
