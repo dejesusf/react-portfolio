@@ -6,7 +6,8 @@ export default function Home() {
       <div className="row">
         <div className="column">
           <div className="top">
-            {/* <h1>HOME</h1> */}
+            <img src="/images/miso.jpeg" />
+            <img src="/images/yuri.jpeg" />
           </div>
         </div>
       </div>
@@ -14,7 +15,7 @@ export default function Home() {
       <div className="row">
         <div className="column">
           <div className="middle">
-            <p>Hi! Welcome to my porfolio that was built using React! Please navigate using the links above to learn About Me and to see my Portfolio. If you like what you see, feel free to contact me via the Contact page.</p>
+            <p className="center">Welcome to my portfolio that was built using React! Please navigate using the links above or visit my socials below.</p>
           </div>
         </div>
       </div>

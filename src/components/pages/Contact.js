@@ -43,16 +43,36 @@ export default function Contact() {
           <div className="middle">
             <p>Hi! If you'd like to contact me, please fill out the form below.</p>
             <form onSubmit={handleFormSubmit}>
-              <label htmlFor='name'>Name: </label>
-              <input type='text' placeholder="Name" name="name" onChange={handleChange} value={name} />
-              <br />
-              <label htmlFor='email'>Email: </label>
-              <input type='email' placeholder="Email" onChange={handleChange} value={email} name="email" />
-              <br />
-              <label htmlFor='message'>Message: </label>
-              <input type='text' placeholder="Message" onChange={handleChange} value={message} name="message" />
-              <br />
-              <button type="submit">Submit</button>
+              <tr>
+                <td className="first">
+                  <label htmlFor='name'>Name: </label>
+                </td>
+                <td className="center">
+                  <input type='text' placeholder="Name" name="name" onChange={handleChange} value={name} />
+                </td>
+              </tr>
+              <tr>
+                <td className="first">
+                  <label htmlFor='email'>Email: </label>
+                </td>
+                <td className="center">
+                  <input type='email' placeholder="Email" onChange={handleChange} value={email} name="email" />
+                </td>
+              </tr>
+              <tr>
+                <td className="first">
+                  <label htmlFor='message'>Message: </label>
+                </td>
+                <td className="center">
+                  <textarea type='text' placeholder="Message" onChange={handleChange} value={message} name="message" />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td className="center">
+                  <button type="submit">Submit</button>
+                </td>
+              </tr>
             </form>
           </div>
         </div>
