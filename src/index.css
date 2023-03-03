@@ -40,7 +40,7 @@ main p {
 
 header {
   background: var(--b3);
-  height: 90px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +93,7 @@ footer {
 
 .top {
   /* background: var(--g1); */
-  margin: 20px 20px 0px 20px;
+  margin: 0px 20px;
   width: 80%;
   text-align: center;
   padding: 1%;
