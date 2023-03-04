@@ -6,8 +6,8 @@ export default function Home() {
       <div className="row">
         <div className="column">
           <div className="top">
-            <img src="/images/miso.jpeg" />
-            <img src="/images/yuri.jpeg" />
+            <img src="%PUBLIC_URL%/images/miso.jpeg" />
+            <img src="%PUBLIC_URL%/images/yuri.jpeg" />
           </div>
         </div>
       </div>

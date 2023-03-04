@@ -15,7 +15,7 @@ export default function About() {
         <div className="column">
           <div className="middle">
             <div className="small-left" id="image">
-              <img src="/images/profile.jpeg" alt="Feliclare sitting on the WSU Cougar statue" />
+              <img src="%PUBLIC_URL%/images/profile.jpeg" alt="Feliclare sitting on the WSU Cougar statue" />
             </div>
 
             <div className="large-right" id="about-me">
