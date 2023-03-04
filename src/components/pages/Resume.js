@@ -64,7 +64,7 @@ export default function Resume() {
             
             <h4 className="g1-block">AWARDS</h4>
               <section>
-                <p className="no-line-break"><strong>Best UI/UX and People's Choice Award: </strong><a href="https://anomallama.herokuapp.com/" target="_blank" rel="noopener noreferrer">Anoma Drama Llama</a> (February 2023)</p>
+                <p className="no-line-break"><strong>Best UI/UX and People's Choice Award: </strong><a href="https://github.com/dejesusf/anoma-drama-llama" target="_blank" rel="noopener noreferrer">Anoma Drama Llama</a> (February 2023)</p>
                 <p className="tab"></p>
               </section>
           </div>

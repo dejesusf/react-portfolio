@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../images/index';
 
 export default function Home() {
   return (
@@ -6,8 +7,8 @@ export default function Home() {
       <div className="row">
         <div className="column">
           <div className="top">
-            <img src="%PUBLIC_URL%/images/miso.jpeg" />
-            <img src="%PUBLIC_URL%/images/yuri.jpeg" />
+            <img src={Image[2]} />
+            <img src={Image[7]} />
           </div>
         </div>
       </div>

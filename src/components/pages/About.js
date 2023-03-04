@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../images/index';
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
         <div className="column">
           <div className="middle">
             <div className="small-left" id="image">
-              <img src="%PUBLIC_URL%/images/profile.jpeg" alt="Feliclare sitting on the WSU Cougar statue" />
+              <img src={Image[6]} alt="Feliclare sitting on the WSU Cougar statue" />
             </div>
 
             <div className="large-right" id="about-me">
