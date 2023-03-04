@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.be29318c.css",
-    "main.js": "/react-portfolio/static/js/main.ebf1ffa6.js",
+    "main.js": "/react-portfolio/static/js/main.dfb2ebe9.js",
+    "static/media/moves and brews.png": "/react-portfolio/static/media/moves and brews.87cb14edddd86ea57ff6.png",
+    "static/media/miso.jpeg": "/react-portfolio/static/media/miso.230b815f530e5e47bdc2.jpeg",
+    "static/media/yuri.jpeg": "/react-portfolio/static/media/yuri.a0db697445659b6a215b.jpeg",
+    "static/media/profile.jpeg": "/react-portfolio/static/media/profile.5178559aa14ec713a911.jpeg",
+    "static/media/sql tracker.png": "/react-portfolio/static/media/sql tracker.a20993d96f8c7b14110a.png",
+    "static/media/anoma drama llama.png": "/react-portfolio/static/media/anoma drama llama.59aa77294931bf0ee8b9.png",
+    "static/media/professional readme gen.png": "/react-portfolio/static/media/professional readme gen.c1e8ece97df3a0655f73.png",
+    "static/media/fill-in screenshot.png": "/react-portfolio/static/media/fill-in screenshot.de7793137450ce90c130.png",
     "index.html": "/react-portfolio/index.html",
     "main.be29318c.css.map": "/react-portfolio/static/css/main.be29318c.css.map",
-    "main.ebf1ffa6.js.map": "/react-portfolio/static/js/main.ebf1ffa6.js.map"
+    "main.dfb2ebe9.js.map": "/react-portfolio/static/js/main.dfb2ebe9.js.map"
   },
   "entrypoints": [
     "static/css/main.be29318c.css",
-    "static/js/main.ebf1ffa6.js"
+    "static/js/main.dfb2ebe9.js"
   ]
 }
