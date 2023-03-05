@@ -6,7 +6,7 @@ This is my new portfolio using React. This assignment came at a good time becaus
 
 Here's the [link](https://dejesusf.github.io/react-portfolio/) to the deployed portfolio.
 
-[Feliclare's portfolio](/profile%20sc.png)
+![Feliclare's portfolio](/profile%20sc.png)
 
 ## License
 
