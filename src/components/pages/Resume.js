@@ -14,8 +14,8 @@ export default function Resume() {
       <div className="row">
         <div className="column">
           <div className="middle">
-            {/* TODO: DOWNLOAD RESUME BUTTON/FILE */}
-            <a download href="files/Feliclare_CV4.pdf" target="_blank">Download Resume</a>
+            {/* DOWNLOAD RESUME BUTTON/FILE */}
+            <a download href="/files/Feliclare_CV4.pdf" target="_blank">Download Resume</a>
             <h4 className="g1-block">SKILLS</h4>
             <section>
               <p className="no-line-break"><strong>Programming languages</strong></p>
