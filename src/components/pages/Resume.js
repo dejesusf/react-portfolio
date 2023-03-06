@@ -15,6 +15,7 @@ export default function Resume() {
         <div className="column">
           <div className="middle">
             {/* TODO: DOWNLOAD RESUME BUTTON/FILE */}
+            <a href="https://dejesusf.github.io/react-portfolio/Feliclare_CV4.pdf" target="_blank">Download Resume</a>
             <h4 className="g1-block">SKILLS</h4>
             <section>
               <p className="no-line-break"><strong>Programming languages</strong></p>

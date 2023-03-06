@@ -23,6 +23,8 @@ export default function Contact() {
     e.preventDefault();
     alert(`Thank you, ${name}, for your submission! At this point in time, it will not be received as the backend code for the form has not yet been created.`)
 
+    
+
     setName('');
     setEmail('');
     setMessage('');
