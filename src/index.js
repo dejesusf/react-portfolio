@@ -12,6 +12,7 @@ createRoot(root).render(
   <BrowserRouter>
     <App />
   </BrowserRouter>);
+
 createRoot(footerContainer).render(
   <BrowserRouter>
     <Footer />
