@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
-import Resume from "./components/pages/Resume";
+import Resume from "./components/pages/Resume/Resume";
 import Navigation from "./components/Navigation";
 
 export default function App() {

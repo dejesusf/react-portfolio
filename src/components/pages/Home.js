@@ -7,8 +7,8 @@ export default function Home() {
       <div className="row">
         <div className="column">
           <div className="top">
-            <img src={Image[2]} />
-            <img src={Image[7]} />
+            <img src={Image[2]} alt="Miso sleeping on a pillow"/>
+            <img src={Image[7]} alt="Yuri laying down on a bed"/>
           </div>
         </div>
       </div>
